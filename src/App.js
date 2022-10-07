@@ -1,17 +1,29 @@
 import './App.css';
 import NavBar from "./components/NavBar";
-import ItemListContainer from "./components/ItemListContainer";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 // Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS
 import "bootstrap/dist/js/bootstrap.bundle.min";
-import {BrowserRouter as Router} from "react-router-dom";
+import {BrowserRouter as Router, Routes,Route} from "react-router-dom";
+import {Nav} from "react-bootstrap";
+import CartWidget from "./components/CartWidget";
+
+import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
 
 function App() {
     return (
-        <Router className="App">
-            <NavBar></NavBar>
-            <ItemListContainer greeting={"Welcome to ECO-mmerce. Here, you'll find handmade and sustainable products."}/>
+        <Router>
+            <NavBar />
+            <Routes>
+                <Route exact path="/" element={<ItemListContainer />} />
+                <Route
+                    exact
+                    path="/category/:categoryId"
+                    element={<ItemListContainer />}
+                />
+                <Route exact path="/item/:id" element={<ItemDetailContainer />} />
+            </Routes>
         </Router>
     );
 }

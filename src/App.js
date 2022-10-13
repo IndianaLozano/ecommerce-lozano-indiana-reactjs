@@ -1,13 +1,11 @@
 import './App.css';
-import NavBar from "./components/NavBar";
+import NavBar from "./components/navigationBar/NavBar";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 // Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import {BrowserRouter as Router, Routes,Route} from "react-router-dom";
-import {Nav} from "react-bootstrap";
-import CartWidget from "./components/CartWidget";
 
 import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
 

@@ -5,30 +5,30 @@
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quaerat inventore ad eligendi perferendis sapiente reprehenderit, sequi possimus placeat unde?",
     "price": 500,
     "pictureUrl": "https://hbr.org/resources/images/article_assets/2019/11/Nov19_14_sb10067951dd-001.jpg",
-    "category": "adventure"
+    "category": "cuadros"
   },
   {
     "id": 2,
     "title": "Maceta B",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quaerat inventore ad eligendi perferendis sapiente reprehenderit, sequi possimus placeat unde?",
-    "price": 30,
+    "price": 200,
     "pictureUrl": "https://hbr.org/resources/images/article_assets/2019/11/Nov19_14_sb10067951dd-001.jpg",
-    "category": "survival"
+    "category": "macetas"
   },
   {
-    "id": 1,
+    "id": 3,
     "title": "Cuadro B",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quaerat inventore ad eligendi perferendis sapiente reprehenderit, sequi possimus placeat unde?",
-    "price": 50,
+    "price": 500,
     "pictureUrl": "https://hbr.org/resources/images/article_assets/2019/11/Nov19_14_sb10067951dd-001.jpg",
-    "category": "adventure"
+    "category": "cuadros"
   },
   {
-    "id": 2,
+    "id": 4,
     "title": "Maceta A",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quaerat inventore ad eligendi perferendis sapiente reprehenderit, sequi possimus placeat unde?",
-    "price": 40,
+    "price": 200,
     "pictureUrl": "https://hbr.org/resources/images/article_assets/2019/11/Nov19_14_sb10067951dd-001.jpg",
-    "category": "shooter"
+    "category": "macetas"
   }
   ]

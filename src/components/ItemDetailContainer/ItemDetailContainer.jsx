@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import ItemDetail from './ItemDetail';
-import loader from '../../loader.gif';
-import fetchData from '../../utils/fetchData';
+import loader from '../../assets/loader.gif';
 import db from '../../db.json';
-import ItemCount from '../ItemCount';
+import fetchData from "../../utils/fetchData";
 
 const ItemDetailContainer = () => {
     const [selectedProduct, setSelectedProduct] = useState('');

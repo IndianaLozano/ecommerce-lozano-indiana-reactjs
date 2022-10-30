@@ -1,3 +1,7 @@
+# ECOmmerce
+
+Proyecto final para el curso de React JS de Coderhouse.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

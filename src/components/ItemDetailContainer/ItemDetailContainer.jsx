@@ -4,6 +4,7 @@ import ItemDetail from './ItemDetail';
 import loader from '../../assets/loader.gif';
 import db from '../../db.json';
 import fetchData from "../../utils/fetchData";
+import { getFirestore, getDoc, doc } from 'firebase/firestore';
 
 const ItemDetailContainer = () => {
     const [selectedProduct, setSelectedProduct] = useState('');
